@@ -3,9 +3,7 @@
 WORK_DIR="/usr/home/$(whoami)/nav"
 NAV_PATH="$WORK_DIR/van-nav"
 LOG_FILE="$WORK_DIR/restart_log.txt"
-NAV_PORT=端口号  
-
-
+NAV_PORT=端口号
 
 if ! pgrep -f "$NAV_PATH" > /dev/null
 then
